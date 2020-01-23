@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row1{
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    height: 80px;
+    padding: 10px;
+    line-height: 60px;
+}
+
+.lang-contact{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.lang-contact a{
+    color: #33475b;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.lang-contact button{
+    font-size: 14px;
+    color: #33475b;
+    background: none;
+    border: none;
+    font-weight: bolder;
+}
+
+.row2{
+    height: 50px;
+}
+
+.banner{
+    background-color: #425b76;
+    height: 60px;
+}
+
+.clouds{
+    height: 700px;
+    background-color: #fff1ee;
+    border-bottom: 2px solid black;
+}
