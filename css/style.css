@@ -98,6 +98,41 @@ body{
     height: 90px;
 }
 
+.row2 .container{
+    height: 90px;
+    padding: 10px 0;
+    line-height: 70px;
+    position: relative;
+
+}
+.logo{
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu{
+    float: right;
+}
+
+.menu li{
+    display: inline-block;
+    text-decoration: none;
+    color: #39475b;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #39475b;
+}
+
 .banner{
     background-color: #425b76;
     height: 60px;
