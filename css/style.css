@@ -14,23 +14,48 @@ body{
     clear: both;
 }
 
-.container{
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 .row1{
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
     height: 80px;
     padding: 10px;
     line-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .lang-contact{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: bolder;
+    cursor: pointer;
+}
+
+.lang-contact i{
+    margin-right: 5px;
+}
+
+.lang-contact ul{
+    float:left;
+}
+
+.lang-contact li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.lang-contact ul > :first-child{
+    height: 30px;
+    line-height: 30px;
+    border-right: 2px solid #cbd6e2;
 }
 
 .lang-contact a{
@@ -39,16 +64,38 @@ body{
     font-weight: bolder;
 }
 
-.lang-contact button{
-    font-size: 14px;
-    color: #33475b;
-    background: none;
-    border: none;
-    font-weight: bolder;
+.login{
+    float: right;
 }
 
+.login button{
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+        padding: 10px 15px;
+}
+.signin{
+    color: #ff7e8c;
+    background: white;
+    border: 1px solid #ff7a59;
+}
+
+.get-HS{
+    color: white;
+    background-color: #ff7a59;
+    border: none;
+}
+
+.login i{
+    color: #00a4bd;
+    margin-right: 20px;
+}
+
+/* FINE RIGA TOP */
+
 .row2{
-    height: 50px;
+    margin-top: 80px;
+    height: 90px;
 }
 
 .banner{
