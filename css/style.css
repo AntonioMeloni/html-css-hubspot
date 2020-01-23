@@ -170,6 +170,7 @@ body{
 
 .clouds{
     background-color: #fff1ee;
+    background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/home/2019/clouds-desktop.svg);
 }
 
 .cloud-text{
@@ -217,3 +218,174 @@ body{
     border-bottom: 2px solid black;
     border-top: 2px solid black;
 }
+
+/* FINE GREEN ROW */
+
+.big-row{
+    background-color: #f5f8fa;
+    padding-bottom: 150px;
+}
+
+.first-section{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.first-section img{
+    max-width: 260px;
+    margin-bottom: 10px;
+}
+
+.first-section h2{
+    font-size: 30px;
+    color: #33475b;
+    margin-bottom: 30px;
+}
+
+.first-section p{
+    color: #33475b;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.sec-section{
+    background-color: white;
+    text-align:center;
+    box-shadow: 0 0 11px #eaf0f6;
+    margin: 0 20px 40px;;
+    padding: 30px;
+}
+
+.crm-box{
+    width: 30%;
+    float: left;
+    padding: 20px 50px;
+}
+
+.crm-box img{
+    height: 150px;
+    padding: 20px;
+}
+
+.crm-box button{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ff7a59;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.crm-text{
+    width: 70%;
+    text-align: left;
+    padding-left: 80px;
+    float: left;
+    padding-top: 30px;
+}
+
+.crm-text h2{
+    font-size: 20px;
+    color: #33475b;
+    padding-bottom: 20px;
+}
+
+.crm-text p{
+    font-size: 13px;
+    line-height: 25px;
+    color: #33475b;
+    padding-bottom: 20px;
+}
+
+.crm-text h5{
+    color: #33475b;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.crm-text li{
+    font-size: 14px;
+    display: inline-block;
+    color: #33475b;
+    padding-right: 15px;
+}
+
+.crm-text i{
+    color: #ff7a59;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.card{
+    width: 33.33%;
+    float: left;
+    padding: 0 20px;
+    float:left;
+}
+
+.card .content {
+    background-color: white;
+    box-shadow: 0 0 11px #eaf0f6;
+    text-align: center;
+    padding: 25px;
+}
+
+.card img{
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    font-size: 18px;
+    color: #33475b;
+    margin-bottom: 20px;
+}
+
+.card p{
+    text-align: left;
+    font-size: 13px;
+    line-height: 25px;
+    color: #33475b;
+}
+
+.card hr{
+    width: 75%;
+    margin: 20px auto;
+    color: #e0e6ed;
+}
+
+.card h5{
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #33475b;
+    text-transform: uppercase;
+}
+
+.card li{
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    line-height: 25px;
+    color: #33475b;
+}
+
+.card i{
+    color: #ff7a59;
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.card button{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ff7a59;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+/* FINE GRANDE RIGA BIANCA... PER IL MOMENTO!! */
