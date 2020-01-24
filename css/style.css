@@ -495,3 +495,47 @@ body{
 
 
 }
+
+.second-sec{
+    padding: 100px 0;
+}
+
+.start-hub{
+    width: 50%;
+    float: left;
+    color: #33475b;
+}
+
+.start-hub h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+}
+
+.start-hub p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.start-hub button{
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #ff7a59;
+    border: none;
+    border-radius: 4px;
+    padding: 25px 45px;
+    margin-bottom: 20px;
+}
+
+.testimonial{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.testimonial img{
+    max-width: 350px;
+}
+
+/* FINE RIGA CUSTOMER */
