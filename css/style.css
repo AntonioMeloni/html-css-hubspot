@@ -389,3 +389,59 @@ body{
 }
 
 /* FINE GRANDE RIGA BIANCA... PER IL MOMENTO!! */
+
+.emerald-row{
+    background-image: linear-gradient(to right, #00a4bd, #00bba7);
+    padding-bottom: 120px;
+}
+
+.emerald-text{
+    text-align:center;
+    color: white;
+    padding: 120px;
+}
+
+.emerald-text h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.emerald-text p{
+    line-height: 25px;
+}
+
+.emerald-grid .box{
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.top{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.dx-top{
+    border-bottom: 1px solid white;
+}
+
+.bottom{
+    border-right: 1px solid white;
+}
+
+.emerald-grid h2{
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.emerald-grid h2:after{
+    content: '+';
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.emerald-grid p{
+    font-size: 13px;
+}
