@@ -445,3 +445,7 @@ body{
 .emerald-grid p{
     font-size: 13px;
 }
+
+.after-none h2:after{
+    content: '';
+}
