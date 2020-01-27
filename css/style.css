@@ -28,8 +28,6 @@ body{
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    /* padding: 10px;
-    line-height: 30px; */
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -198,6 +196,76 @@ body{
     color: #39475b;
 }
 
+.sub-menu{
+    width: 100%;
+    max-width: 895px;
+    border: 1px solid #cbd6e2;
+    position: absolute;
+    background: white;
+    z-index: 1;
+    right: 0;
+    line-height: 20px;
+    display: none;
+}
+.menu > ul > :hover .sub-menu{
+    display: block;
+}
+
+.sub-menu .first-row-submenu:hover{
+    background-color: #E5F5F8;
+}
+
+.sub-menu .third-row-submenu:hover{
+    background-color: #E5F5F8;
+}
+
+.sub-menu .submenu-box:hover{
+    background-color: #E5F5F8;
+}
+
+.sub-menu p{
+    font-weight: normal;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.first-row-submenu{
+    text-align: center;
+    padding: 30px 20px;
+    margin: 10px 30px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.second-row-submenu{
+    padding: 20px;
+    margin: 0 30px;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.submenu-box{
+    width: 33.33%;
+    float: left;
+    padding: 20px;
+}
+
+.third-row-submenu{
+    width: 100%;
+    text-align: center;
+    margin: 10px 20px;
+    display: inline-block;
+    padding: 10px 30px;
+
+}
+
+.third-row-submenu h3{
+    float: left;
+}
+
+.third-row-submenu span{
+    float: right;
+    font-weight: normal;
+    font-size: 13px;
+}
 /* FINE RIGA NAV */
 
 .banner{
