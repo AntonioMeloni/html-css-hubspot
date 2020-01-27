@@ -23,6 +23,33 @@ body{
     border-radius: 7px;
 }
 
+.help-box{
+    background-color: #425b76;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    /* padding: 10px;
+    line-height: 30px; */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+}
+
+.help-box i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+.help-box:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.5);
+}
+
 .row1{
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
@@ -47,10 +74,11 @@ body{
     font-size: 13px;
     font-weight: bolder;
     cursor: pointer;
+    position: relative;
 }
 
 .lang-contact i{
-    margin-right: 5px;
+    margin: 5px;
 }
 
 .lang-contact ul{
@@ -62,10 +90,31 @@ body{
     padding: 0 20px;
 }
 
-.lang-contact ul > :first-child{
+.lang-contact > ul > :first-child{
     height: 30px;
     line-height: 30px;
     border-right: 2px solid #cbd6e2;
+}
+
+.lang-menu{
+    border: 1px solid #cbd6e2;
+    background: white;
+    display: none;
+    position: absolute;
+}
+
+.lang-contact > ul > :first-child:hover .lang-menu{
+    display: block;
+}
+
+.lang-menu li{
+    display: block;
+    color: #33475b;
+    font-weight: 200;
+}
+
+.lang-menu li:hover{
+    background-color: #E5F5F8;
 }
 
 .lang-contact a{
@@ -83,6 +132,7 @@ body{
     border-radius: 4px;
     cursor: pointer;
     padding: 10px 15px;
+    position: relative;
 }
 .signin{
     color: #ff7e8c;
@@ -94,6 +144,11 @@ body{
     color: white;
     background-color: #ff7a59;
     border: none;
+}
+
+.get-HS .overlay:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
 }
 
 .login i{
@@ -173,6 +228,7 @@ body{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
 /* FINE RIGA BANNER BLU */

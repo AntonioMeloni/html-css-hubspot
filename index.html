@@ -8,19 +8,31 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="help-box"><i class="fas fa-comment-alt"></i></div>
         <header>
             <div class="row1">
                 <div class="container clearfix">
                     <div class="lang-contact">
                         <ul>
-                            <li><a href="#"><i class="fas fa-globe-africa"></i>English</a></li>
+                            <li><a href="#"><i class="fas fa-globe-africa"></i>English<i class="fas fa-caret-down"></i></a>
+                                <div class="lang-menu clearfix">
+                                    <ul>
+                                        <li>日本語</li>
+                                        <li>Deutsch</li>
+                                        <li>English</li>
+                                        <li>Español</li>
+                                        <li>Português</li>
+                                        <li>Français</li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
                     <div class="login">
                         <i class="fas fa-search"></i>
-                        <button class="signin" type="button" name="button">Log in</button>
-                        <button class="get-HS" type="button" name="button">Get HubSpot free</button>
+                        <button class="signin" type="button" name="button"><div class="overlay"></div>Log in</button>
+                        <button class="get-HS" type="button" name="button"><div class="overlay"></div>Get HubSpot free</button>
                     </div>
                 </div>
             </div>
