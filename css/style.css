@@ -14,6 +14,15 @@ body{
     clear: both;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 7px;
+}
+
 .row1{
     background-color: #f5f8fa;
     border-bottom: 1px solid #cbd6e2;
@@ -202,11 +211,18 @@ body{
     border-radius: 4px;
     padding: 20px 45px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+
+.cloud-text .overlay:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
 }
 
 .cloud-text h6{
     font-size: 12px;
-    font-weight: bolder;
+    font-weight: normal;
     color: #33475b;
 }
 
@@ -262,6 +278,12 @@ body{
     padding: 20px 50px;
 }
 
+.sec-section:hover {
+    transform: scale(101%);
+    transition: 0.4s;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+
 .crm-box img{
     height: 150px;
     padding: 20px;
@@ -276,6 +298,13 @@ body{
     border-radius: 4px;
     padding: 10px 20px;
     margin-top: 20px;
+
+    position: relative;
+}
+
+.crm-box .overlay:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
 }
 
 .crm-text{
@@ -323,6 +352,12 @@ body{
     float: left;
     padding: 0 20px;
     float:left;
+}
+
+.card .content:hover {
+    transform: scale(101%);
+    transition: 0.4s;
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
 }
 
 .card .content {
@@ -386,6 +421,12 @@ body{
     border-radius: 4px;
     padding: 10px 20px;
     margin-top: 20px;
+    position: relative;
+}
+
+.card .overlay:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
 }
 
 /* FINE GRANDE RIGA BIANCA... PER IL MOMENTO!! */
@@ -517,6 +558,11 @@ body{
     margin-bottom: 30px;
 }
 
+.start-hub p:last-child{
+    font-size: 11px;
+    margin-top: 15px;
+}
+
 .start-hub button{
     font-size: 16px;
     font-weight: bold;
@@ -526,6 +572,12 @@ body{
     border-radius: 4px;
     padding: 25px 45px;
     margin-bottom: 20px;
+    position: relative;
+}
+
+.start-hub .overlay:hover {
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
 }
 
 .testimonial{
@@ -600,6 +652,10 @@ body{
     cursor: pointer;
 }
 
+.social li:hover i{
+    color: #00a4bd;
+}
+
 .languages{
     width: 100%;
     border-bottom: 1px solid #7c98b6;
@@ -614,6 +670,10 @@ body{
     font-size: 15px;
     padding: 30px 10px;
     cursor: pointer;
+}
+
+.languages li:hover {
+    color: #00a4bd;
 }
 
 .hs-info{
@@ -640,4 +700,8 @@ body{
     color: #cbd6e2;
     font-size: 15px;
     padding-left: 30px;
+}
+
+.policy a:hover {
+    color: #00a4bd;
 }
